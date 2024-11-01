@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 
 
-# moneytrace_backend/urls.py
+
 from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponse
@@ -28,7 +28,6 @@ def home(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('transactions.urls')),  # подключение API
-    path('', home),  # обработка корневого пути
+    path('api/', include('transactions.urls')),
 ]
 
