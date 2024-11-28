@@ -16,12 +16,6 @@ class Transaction(models.Model):
 
 from django.contrib.auth.models import User 
 
-# class Category(models.Model):
-#     name = models.CharField(max_length=100)
-#     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="categories")
-
-#     def __str__(self):
-#         return self.name
 class Category(models.Model):
     TYPE_CHOICES = [
         ('income', 'Income'),
@@ -53,3 +47,4 @@ class ScheduledPayment(models.Model):
 
     def __str__(self):
         return f"{self.amount} on {self.scheduled_date}"
+

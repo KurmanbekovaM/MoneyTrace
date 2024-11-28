@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\savar\Documents\РАМИЛЯ\soft.in\MoneyTrace\venv
+set VIRTUAL_ENV=C:\Users\Admin\Downloads\mt-20241127T111231Z-001\mt\MoneyTrace\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

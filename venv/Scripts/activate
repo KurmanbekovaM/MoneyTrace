@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\savar\Documents\РАМИЛЯ\soft.in\MoneyTrace\venv"
+VIRTUAL_ENV="C:\Users\Admin\Downloads\mt-20241127T111231Z-001\mt\MoneyTrace\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
